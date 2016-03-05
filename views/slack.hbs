@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ProvoJS</title>
+  <link rel="stylesheet" href="/css/style.css" type="text/css" />
+</head>
+<body>
+
+  <h1>Join the ProvoJS community on Slack!</h1>
+
+  <form id="join-form" action="/invite" method="post">
+
+    <input id="slack-email" type="text" name="email" placeholder="Enter your email" />
+
+  </form>
+
+  <script>
+  var form = document.getElementById('join-form');
+  var email = document.getElementById('slack-email');
+  form.addEventListener('submit', function(evt) {
+    if (!email.value) {
+      evt.preventDefault();
+    }
+  });
+  </script>
+
+</body>
+</html>
