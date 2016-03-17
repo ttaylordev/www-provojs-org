@@ -7,3 +7,95 @@ input {
   font-size: 24px;
   width: 400px;
 }
+
+.mUpBanner {
+  background-color: rgb(223, 186, 28);
+  width: 100vw;
+  height: 324px;
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  z-index: -1;
+}
+
+.mUpEvent {
+  background-color: rgb(230, 221, 100);
+  width: 580px;
+  height: 200px;
+  min-height: 172px;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  top: 35px;
+  left: calc(50% - 290px);
+  margin-left: 1px;
+  z-index: -1;
+  color: rgb(255, 255, 255);
+  font-family: Whitney, helvetica, arial, sans-serif;
+  letter-spacing: -0.05px;
+  border-radius: 3px;
+  font-size: 16px;
+
+}
+
+.mUpNextEvent{
+  position: relative;
+  top: 40px;
+  left: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-weight: bold;
+  height: 26px;
+  line-height: 26.6px;
+  margin-bottom: 10px;
+}
+
+.mUpDay {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  position: relative;
+  top: 35px;
+  left: 40px;
+}
+
+.mUpDay p {
+  position: relative;
+  top: -36px;
+  left: 0px;
+  height: 60%;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #555;
+  border: 2px solid #ddd;
+  text-align: center;
+}
+
+.mUpMonth {
+  background-color: red;
+  height: 30%;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.mUpTitle {
+  position: relative;
+  left: 0px;
+  top: -20px;
+}
+
+.mUpDetails {
+  position: relative;
+  left: 130px;
+  top: -60px;
+}
+
+.mUpDateTime {
+  position: relative;
+  top: -40px;
+  left: 0px;
+}

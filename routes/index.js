@@ -2,10 +2,18 @@ var express = require('express');
 var router = express.Router();
 var request = require('request');
 var config = require('../config');
+var meetup = require('meetup');
+
 
 router.get('/', function(req, res) {
   res.render('home', {
-    title: 'ProvoJS'
+    title: 'ProvoJS',
+    meetupTitle: 'The meetupTitle',
+    meetupDate: '19',
+    meetupDateTime: 'Friday, March 19th',
+    meetupLocation: 'DevMountain Provo, UT',
+    meetupMonth: 'MAR',
+    meetupSpeaker: 'Bob Barker',
   });
 });
 

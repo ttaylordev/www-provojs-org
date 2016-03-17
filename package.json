@@ -18,6 +18,7 @@
     "debug": "~2.1.1",
     "express": "~4.10.6",
     "hbs": "^4.0.0",
+    "meetup": "0.1.0-SNAPSHOT",
     "morgan": "~1.5.1",
     "request": "^2.51.0",
     "serve-favicon": "~2.2.0"
